@@ -42,7 +42,7 @@ var $ = function (selector) {
 
     var html = function (newHTML) {
         for (var i = 0; i < elem.length; i++) {
-            elem[i].innerHtml = newHTML;
+            elem[i].innerHTML = newHTML;
         }
     }
 
